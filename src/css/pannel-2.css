@@ -1,0 +1,119 @@
+.pannel-2 {
+    grid-area: 'pannel-2';
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 170px 4% 100px 4%;
+    background: url(/src/img/bg-curve-desktop.svg)no-repeat center center;
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.pannel-2 img {
+    max-width: 600px;
+    width: 90%;
+}
+
+.pannel-2 div h2 {
+    font-size: 220%;
+    font-family: var(--header-font);
+    color: var(--very-dark-blue);
+    font-weight: var(--bold-font-weight);
+    max-width: 670px;
+    width: 100%;
+    line-height: 60px;
+    padding-bottom: 25px;
+}
+
+.pannel-2 div p {
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: var(--main-font-weight);
+    max-width: 540px;
+}
+
+.pannel-2 div p:nth-child(3n) {
+    padding-bottom: -10px;
+}
+
+.pannel-2 div h2, .pannel-2 div p {
+    color: var(--very-dark-blue);
+}
+
+.pannel-2 div p:nth-child(4n) {
+    position: relative;
+    bottom: 40px;
+}
+
+.pannel-2 div p a {
+    color: var(--moderate-cyan);
+    border-bottom: var(--moderate-cyan) solid 1px;
+    padding-bottom: 3px;
+}
+
+.pannel-2 div p a::after {
+    content: '';
+    background: url(/src/img/icon-arrow.svg) no-repeat center center;
+    display: inline-block;
+    position: relative;
+    width: 15px;
+    height: 60px;
+    top: 25px;
+    margin-left: 7px;
+}
+
+.pannel-2 .testimony {
+    background-color: var(--white);
+    max-width: 300px;
+    width: 100%;
+    /* margin-bottom: 50px; */
+    padding: 0 3% 0 5%;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px var(--light-gray);
+}
+
+.pannel-2 .testimony p {
+    width: 100%;
+    font-size: 14px;
+    font-weight: var(--medium-font-weight);
+}
+
+.pannel-2 .testimony .quote::before {
+    content: '';
+    background: url(/src/img/icon-quotes.svg) no-repeat center center;
+    display: block;
+    width: 20px;
+    height: 60px;
+    position: relative;
+    top: 11px;
+}
+
+.pannel-2 .testimony .client {
+   position: relative;
+   bottom: 15px;
+   left: 11px;
+}
+
+.pannel-2 .testimony .client p:first-child {
+    font-weight: var(--bold-font-weight);
+    font-size: 12px;
+    padding: 0;
+}
+
+.pannel-2 .testimony .client p:first-child::before {
+    content: '';
+    background:url(/src/img/avatar-testimonial.jpg) no-repeat center center;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    position: relative;
+    top: 19px;
+    left: -9px;
+    border-radius: 20px;
+}
+
+.pannel-2 .testimony .client p:last-child {
+    font-size: 10px;
+    margin-left: 35.5px;
+}
+

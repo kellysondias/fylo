@@ -1,0 +1,52 @@
+:root {
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --white: hsl(240, 75%, 100%);
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+
+:root {
+    --main-font: 'Open Sans', sans-serif;
+    --main-font-weight: 400;
+    --medium-font-weight: 500;
+    --header-font: 'Raleway', sans-serif;
+    --bold-font-weight: 700;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    margin: 0 auto;
+    font-family: var(--main-font);
+    font-weight: var(--main-font-weight);
+}
+
+body {
+    grid-template-areas: 
+    'header header header',
+    'pannel-1 pannel-1 pannel-1',
+    'pannel-2 pannel-2 pannel-2',
+    'register register register',
+    'footer footer footer';
+    font-style: var(--main-font);
+}
+
+a {
+    color: black;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

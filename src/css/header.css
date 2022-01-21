@@ -1,0 +1,134 @@
+.header {
+    grid-area: 'header';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--header-font);
+    padding: 70px 5% 10px 5%;
+    margin: 0 auto;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header nav ul li {
+    font-weight: var(--bold-font-weight);
+    padding: 15px;
+    font-weight: var(--main-font-weight);
+    margin-right: 22px;
+    border-radius: 25px;
+}
+
+.header nav ul li:hover {
+    background-color: #bdbafa;
+    transition: 0.5s;
+}
+
+.header nav ul li:last-child {
+    margin-right: 15px;
+}
+
+.header nav label {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .menu {
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
+
+.header .hamburguer {
+    background-color: #000;
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 2px;
+    top: 29px;
+    left: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.header .hamburguer:before, 
+.header .hamburguer:after {
+    background-color: #000;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+}
+
+.header .hamburguer:before {
+    top: -10px;
+}
+
+.header .hamburguer:after {
+    bottom: -10px;
+}
+
+.header input {
+    display: none;
+}
+
+.header input:checked ~ label .hamburguer {
+    transform: rotate(45deg);
+}
+
+.header input:checked ~ label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.header input:checked ~ label .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+@media (max-width: 900px) {
+    .header .menu {
+        display: block;
+        margin-top: 53px;
+    }
+
+    .header nav ul {
+        display: none;
+    }
+
+    .header input:checked ~ ul{
+        display: block;
+    }
+
+    .header nav {
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .header nav ul {
+        width: 200px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .header nav ul a {
+        text-align: center;
+        display: block;
+        padding: 20px;
+    }
+
+    .header nav ul li:last-child {
+        padding-right: 0;
+    }
+
+    .header .header-ul-last-child {
+        margin-right: 7%;
+    }
+}
