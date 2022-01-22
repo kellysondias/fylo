@@ -5,7 +5,7 @@
     --moderate-cyan: hsl(170, 45%, 43%);
     --white: hsl(240, 75%, 100%);
     --light-grayish-blue: hsl(240, 75%, 98%);
-    --light-gray: hsl(0, 0%, 75%);
+    --light-gray: hsl(0, 5%, 83%);
 }
 
 :root {
@@ -21,6 +21,7 @@
     margin: 0;
     text-decoration: none;
     list-style-type: none;
+    outline: 0;
 }
 
 html {

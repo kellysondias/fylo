@@ -37,8 +37,8 @@
 
 .pannel-1 label input:first-child {
     max-width: 280px;
-    padding: 12px;
     width: 100%;
+    padding: 12px;
     border-radius: 3px;
     border: 1px solid rgb(78, 73, 73);
     font-size: 93.75%;
@@ -55,8 +55,9 @@
     background-color: var(--bright-blue);
     color: var(--light-grayish-blue);
     margin-left: 10px;
-    padding: 13px 50px;
+    padding: 13px 60px;
     border-radius: 3px;
+    box-shadow: 1px 1px 3px #736fb1;
 }
 
 .pannel-1 label input:last-child:hover {

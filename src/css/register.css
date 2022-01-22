@@ -1,3 +1,58 @@
 .register {
     grid-area: 'register';
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 209px;
+    margin: 0 auto;
+    padding: 85px 50px 80px 50px;
+    background-color: var(--desaturated-blue);
+}
+
+
+.register div h2 {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: var(--medium-font-weight);
+    padding-bottom: 14px;
+}
+
+.register div p {
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    color: var(--light-gray);
+}
+
+.register label {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 15px;
+}
+
+#footer-email {
+    width: 83.5%;
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(219, 217, 217);
+    font-size: 93.75%;
+}
+
+#footer-email::placeholder {
+    color: var(--light-gray);
+    font-size: 12px;
+    position: relative;
+    left: 5px;
+}
+
+.register label a input:last-child {
+    margin-top: 14px;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 3px;
+    background-color: var(--bright-blue);
+    font-family: var(--main-font);
+    font-weight: var(--bold-font-weight);
+    color: var(--white);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #443e95;
 }
