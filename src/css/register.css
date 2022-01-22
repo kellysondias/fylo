@@ -39,7 +39,7 @@
 
 #footer-email::placeholder {
     color: var(--light-gray);
-    font-size: 12px;
+    font-size: 13px;
     position: relative;
     left: 5px;
 }
