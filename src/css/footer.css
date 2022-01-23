@@ -4,3 +4,7 @@
     grid-template-columns: repeat(4, 1fr);
     background-color: var(--very-dark-blue);
 }
+
+.social-medias {
+    background-color: rgb(0, 235, 235);
+}
