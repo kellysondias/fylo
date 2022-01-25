@@ -2,15 +2,15 @@
     grid-area: 'pannel-2';
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 170px 4% 100px 4%;
-    background: url(/src/img/bg-curve-desktop.svg)no-repeat center center;
-    background-size: cover;
-    padding-top: 170px;
+    padding: 60px 4% 100px 4%;
+    column-gap: 55px;
+    background-color: #f8f8ff;
 }
 
 .pannel-2 img {
     max-width: 600px;
     width: 90%;
+    margin-top: 35px;
 }
 
 .pannel-2 div h2 {
@@ -100,7 +100,7 @@
 
 .pannel-2 .testimony .client p:first-child::before {
     content: '';
-    background:url(../src/img/avatar-testimonial.jpg) no-repeat center center;
+    background:url(/src/img/avatar-testimonial.jpg) no-repeat center center;
     display: inline-block;
     width: 35px;
     height: 35px;

@@ -4,6 +4,9 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 5%;
     padding: 5% 4%;
+    padding-bottom: 250px;
+    background: url(/src/img/bg-curve-desktop.svg) no-repeat bottom center;
+    background-size: contain;
 }
 
 .pannel-1 img {
