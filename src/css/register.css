@@ -12,13 +12,13 @@
 .register div h2 {
     font-size: 30px;
     color: var(--white);
-    font-weight: var(--medium-font-weight);
+    font-weight: var(--bold-font-weight);
     padding-bottom: 14px;
 }
 
 .register div p {
     font-size: 16px;
-    max-width: 500px;
+    max-width: 481px;
     width: 100%;
     color: var(--light-gray);
 }
