@@ -8,7 +8,6 @@
     background-color: var(--desaturated-blue);
 }
 
-
 .register div h2 {
     font-size: 30px;
     color: var(--white);
@@ -44,15 +43,19 @@
     left: 5px;
 }
 
-.register label a input:last-child {
+.register label input:last-child {
     margin-top: 14px;
     border: none;
     padding: 15px 25px;
+    width: 100%;
+    max-width: 178.89px;
     border-radius: 3px;
     background-color: var(--bright-blue);
-    font-family: var(--main-font);
-    font-weight: var(--bold-font-weight);
     color: var(--white);
     cursor: pointer;
     box-shadow: 1px 1px 5px #443e95;
+}
+
+.register label input:last-child:active {
+    background-color: var(--light-blue);
 }

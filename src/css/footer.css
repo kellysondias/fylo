@@ -87,3 +87,12 @@
     padding: 8px;
     margin-right: 12px;
 }
+
+.footer .social-medias .social-media:hover {
+    border-color: var(--bright-blue);
+}
+
+.footer .social-medias .social-media:hover, .footer nav ul li a:hover {
+    color: var(--bright-blue);
+    transition: 0.2s ease-in-out;
+}

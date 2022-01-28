@@ -61,6 +61,25 @@
     margin-left: 7px;
 }
 
+.pannel-2 div p a:hover
+ {
+    color:var(--light-cyan);
+    border-color: var(--light-cyan);
+    transition: 0.2s ease-in-out;
+}
+
+.pannel-2 div p a:hover::after {
+    content: '';
+    background: url(/src/img/icon-arrow-hover.svg) no-repeat center center;
+    display: inline-block;
+    position: relative;
+    width: 15px;
+    height: 60px;
+    top: 25px;
+    margin-left: 7px;
+    transition: 0.2s ease-in-out;
+}
+
 .pannel-2 .testimony {
     background-color: var(--white);
     max-width: 300px;
@@ -70,9 +89,9 @@
     box-shadow: 1px 1px 5px var(--light-gray);
 }
 
-.pannel-2 .testimony p {
+.pannel-2 .testimony .quote {
     width: 100%;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: var(--medium-font-weight);
 }
 
@@ -115,4 +134,3 @@
     font-size: 10px;
     margin-left: 35.5px;
 }
-

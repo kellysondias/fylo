@@ -67,6 +67,10 @@
     cursor: pointer;
 }
 
+.pannel-1 label input:last-child:active {
+    background-color: var(--light-blue);
+}
+
 .pannel-1 label input:first-child::placeholder,
 .pannel-1 label input:last-child {
     font-weight: var(--header-bold-font-weight);
