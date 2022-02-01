@@ -134,3 +134,16 @@
     font-size: 10px;
     margin-left: 35.5px;
 }
+
+@media (max-width: 760px) {
+    .pannel-2 {
+        grid-template-columns: 1fr;
+        padding: 60px 4% 100px 4%;
+        column-gap: 55px;
+        background-color: #f8f8ff;
+    }
+
+    .pannel-2 img {
+        order: 9999;
+    }
+}
