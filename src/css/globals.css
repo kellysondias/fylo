@@ -36,10 +36,10 @@ html {
 
 body {
     grid-template-areas: 
-    'header header',
-    'pannel-1 pannel-1',
-    'pannel-2 pannel-2',
-    'register register',
+    'header header'
+    'pannel-1 pannel-1'
+    'pannel-2 pannel-2'
+    'register register'
     'footer footer';
     font-style: var(--main-font);
 }

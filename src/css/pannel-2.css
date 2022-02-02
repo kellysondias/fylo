@@ -145,6 +145,11 @@
         background-color: #f8f8ff;
     }
 
+    .pannel-2 div h2 {
+        text-align: center;
+        padding-top: 100px;
+    }
+
     .pannel-2 div p {
         color: var(--light-darkish-gray);
     }
@@ -154,7 +159,18 @@
         justify-content: center;
     }
 
+    .pannel-2 .testimony {
+        margin: 0 auto;
+    }
+
     .pannel-2 .testimony p {
         color: var(--black);
+    }
+}
+
+@media (max-width: 375px) {
+    .pannel-2 div h2 {
+        font-size: 106.25%;
+        padding-bottom: 5px;
     }
 }
