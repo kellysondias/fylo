@@ -59,3 +59,6 @@
 .register label input:last-child:active {
     background-color: var(--light-blue);
 }
+
+
+@media (max-width: 760px) {}

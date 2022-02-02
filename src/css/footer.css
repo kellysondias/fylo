@@ -38,17 +38,19 @@
 }
 
 .footer nav ul:first-child {
-    margin-left: 40%;
+    margin: 0 66% 0 40%;
     width: 100%;
 }
 
-.footer nav ul:last-child {
-    padding-left: 130px;
-    width: 388px;
-}
 
 .footer nav ul li {
     padding-bottom: 20px;
+    width: 150%;
+}
+
+.footer nav ul:first-child li {
+    margin: 0 66% 0 40%;
+    width: 160%;
 }
 
 .footer nav,

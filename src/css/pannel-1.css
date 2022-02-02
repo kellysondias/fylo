@@ -74,7 +74,7 @@
 
 .pannel-1 img {
     max-width: 600px;
-    width: 110%;
+    width: 100%;
 }
 
 @media (max-width: 830px) {
@@ -151,8 +151,6 @@
 
     .pannel-1 img {
         top: none;
-        max-width: 600px;
-        width: 110%;
         margin: 0 auto;
     }
 }
