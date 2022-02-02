@@ -6,8 +6,10 @@
     --moderate-cyan: hsl(170, 45%, 43%);
     --light-cyan: hsl(170, 72%, 62%);
     --white: hsl(240, 75%, 100%);
+    --black: #000;
     --light-grayish-blue: hsl(240, 75%, 98%);
     --light-gray: hsl(0, 5%, 83%);
+    --light-darkish-gray: hsl(0, 2%, 49%);
 }
 
 :root {
@@ -34,11 +36,11 @@ html {
 
 body {
     grid-template-areas: 
-    'header header header',
-    'pannel-1 pannel-1 pannel-1',
-    'pannel-2 pannel-2 pannel-2',
-    'register register register',
-    'footer footer footer';
+    'header header',
+    'pannel-1 pannel-1',
+    'pannel-2 pannel-2',
+    'register register',
+    'footer footer';
     font-style: var(--main-font);
 }
 

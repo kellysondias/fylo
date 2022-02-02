@@ -137,13 +137,24 @@
 
 @media (max-width: 760px) {
     .pannel-2 {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        align-items: center;
         padding: 60px 4% 100px 4%;
         column-gap: 55px;
         background-color: #f8f8ff;
     }
 
-    .pannel-2 img {
-        order: 9999;
+    .pannel-2 div p {
+        color: var(--light-darkish-gray);
+    }
+
+    .pannel-2 div p:nth-child(4n) {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pannel-2 .testimony p {
+        color: var(--black);
     }
 }
