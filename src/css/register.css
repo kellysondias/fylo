@@ -61,4 +61,40 @@
 }
 
 
-@media (max-width: 760px) {}
+@media (max-width: 760px) {
+    .register {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .register {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    #footer-email {
+        width: 92%;
+        margin: 0 auto;
+        max-width: 319px;
+    }
+
+    .register label input:last-child {
+        max-width: 343px;
+        margin: 10px auto 0 auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .register div h2 {
+        font-size: 131.25%;
+    }
+    .register div p {
+        font-size: 90.62%;
+    }
+
+    #footer-email {
+        margin: 8px auto 0 auto;
+        padding: 10px;
+    }
+}

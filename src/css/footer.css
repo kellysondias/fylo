@@ -1,9 +1,9 @@
 .footer {
     grid-area: 'footer';
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-flow: row wrap;
     background-color: var(--very-dark-blue);
-    padding: 112px 61px 30px 61px;
+    padding: 112px 61px;
 }
 
 .footer .contact p {
@@ -33,29 +33,26 @@
 
 .footer nav {
     display: flex;
-    position: relative;
-    width: 95%;
+    flex-flow: row nowrap;
+    margin: 70px 0 0 20%;
+    max-width: 100px;
+    width: 100%;
+    padding-right: 30%;
+}
+
+.footer nav ul {
+    max-width: 100px;
+    width: 100%;
+    margin-right: 130px;
 }
 
 .footer nav ul:first-child {
-    margin: 0 66% 0 40%;
-    width: 100%;
+    margin-right: 50px;
 }
-
 
 .footer nav ul li {
-    padding-bottom: 20px;
-    width: 150%;
-}
-
-.footer nav ul:first-child li {
-    margin: 0 66% 0 40%;
+    margin-bottom: 15px;
     width: 160%;
-}
-
-.footer nav,
-.footer .social-medias {
-    margin-top: 71px;
 }
 
 .footer,.footer ul li a,
@@ -64,17 +61,13 @@
 }
 
 .footer .social-medias {
+    
     display: flex;
-    flex-flow: row;
-    position: relative;
-    left: 97%;
-}
-
-.footer .social-medias {
-    display: relative;
-    left: 75%;
-    width: 120px;
+    flex-flow: row nowrap;
+    max-width: 120px;
+    width: 100%;
     height: 35px;
+    margin-top: 70px;
 }
 
 .footer .social-medias .social-media {
@@ -97,4 +90,40 @@
 .footer .social-medias .social-media:hover, .footer nav ul li a:hover {
     color: var(--bright-blue);
     transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 750px) {
+    .footer nav {
+      position: relative;
+      right: 19%;  
+    }
+}
+
+@media (max-width: 580px) {
+    .footer nav {
+        position: static;
+        padding-left: 5px;
+        margin: 0;
+        flex-flow: column wrap;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer {
+        padding-left: 35px;
+    }
+
+    .footer nav {
+        margin-top: 50px;
+    }
+
+    .footer nav ul:first-child {
+        margin-bottom: 50px;
+    }
+
+    .footer .social-medias {
+        position: relative;
+        bottom: 5px;
+        margin-left: 80px;
+    }
 }

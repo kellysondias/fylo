@@ -173,4 +173,14 @@
         font-size: 106.25%;
         padding-bottom: 5px;
     }
+
+    .pannel-2 div p a {
+        padding-top: 20px;
+    }
+
+    .pannel-2 .testimony {
+        max-width: 300px;
+        width: 90%;
+        padding: 0 3% 0 5%;
+    }
 }
