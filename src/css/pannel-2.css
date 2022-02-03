@@ -97,7 +97,7 @@
 
 .pannel-2 .testimony .quote::before {
     content: '';
-    background: url(../src/img/icon-quotes.svg) no-repeat center center;
+    background: url(..src/img/icon-quotes.svg) no-repeat center center;
     display: block;
     width: 20px;
     height: 60px;
