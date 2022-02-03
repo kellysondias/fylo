@@ -97,7 +97,7 @@
 
 .pannel-2 .testimony .quote::before {
     content: '';
-    background: url(/src/img/icon-quotes.svg) no-repeat center center;
+    background: url(../src/img/icon-quotes.svg) no-repeat center center;
     display: block;
     width: 20px;
     height: 60px;
@@ -119,7 +119,7 @@
 
 .pannel-2 .testimony .client p:first-child::before {
     content: '';
-    background:url(../img/avatar-testimonial.jpg) no-repeat center center;
+    background:url(..src/img/avatar-testimonial.jpg) no-repeat center center;
     display: inline-block;
     width: 35px;
     height: 35px;
