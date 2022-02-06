@@ -24,11 +24,11 @@
 }
 
 .footer .contact p:nth-child(2n)::before {
-    background: url(/src/img/icon-phone.svg) no-repeat center center;
+    background: url(../img/icon-phone.svg) no-repeat center center;
 }
 
 .footer .contact p:last-child::before {
-    background: url(/src/img/icon-email.svg) no-repeat center center;
+    background: url(../img/icon-email.svg) no-repeat center center;
 }
 
 .footer nav {
