@@ -122,6 +122,7 @@
 
 @media (max-width: 440px) {
     .footer {
+        padding-bottom: 50px;
         padding-left: 35px;
     }
 
