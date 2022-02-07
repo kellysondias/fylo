@@ -98,8 +98,9 @@
 .pannel-2 .testimony .quote::before {
     content: '';
     background: url(../img/icon-quotes.svg) no-repeat center center;
+    background-size: contain;
     display: block;
-    width: 20px;
+    width: 14px;
     height: 60px;
     position: relative;
     top: 11px;
