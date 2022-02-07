@@ -54,6 +54,7 @@
     margin-left: 10px;
     padding: 13px 60px;
     border-radius: 3px;
+    margin: 0 auto;
     box-shadow: 1px 1px 3px #736fb1;
 }
 
@@ -77,6 +78,16 @@
     width: 100%;
 }
 
+@media (max-width: 1080px) {
+    .pannel-1 label input:first-child {
+        margin-bottom: 10px;
+    }
+
+    .pannel-1 label input:last-child {
+        margin-left: 11%;
+    }
+}
+
 @media (max-width: 830px) {
 
     .pannel-1 {
@@ -98,10 +109,9 @@
     }
 
     .pannel-1 label input:last-child {
-        margin-left: 17%;
+        margin-left: 15%;
     }
 }
-
 
 @media (max-width: 760px) {
 
